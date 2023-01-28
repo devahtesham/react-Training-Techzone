@@ -1,25 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
-
+// import Heading from "./components/Heading.jsx"
+// import React from 'react';
+// import Heading2 from "./components/Heading2.jsx";
+// import Card from "./components/Card.jsx";
+import Form from "./components/Form.jsx";
+import UseRefExample from "./components/UseRefExample.jsx";
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+  let myData={
+    name:"ahtesham",
+    id:"12355",
+    course:"reactjs"
+  }
+
+  return <>
+        {/* <div className="App">
+          <h1>Hello react</h1>
+        </div>
+        <MyHeading /> */}
+      {/* <Heading heading={myData} />
+      <Heading2 /> */}
+      {/* <Card /> */}
+      {/* <Form /> */}
+      <UseRefExample />
+      </>
+
+  ;
 }
 
 export default App;
