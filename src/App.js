@@ -3,6 +3,8 @@
 // import Heading2 from "./components/Heading2.jsx";
 // import Card from "./components/Card.jsx";
 import Form from "./components/Form.jsx";
+import Header from "./components/Header.jsx";
+import NewForm from "./components/NewForm.jsx";
 import UseRefExample from "./components/UseRefExample.jsx";
 function App() {
   let myData={
@@ -20,7 +22,9 @@ function App() {
       <Heading2 /> */}
       {/* <Card /> */}
       {/* <Form /> */}
-      <UseRefExample />
+      {/* <UseRefExample /> */}
+      {/* <NewForm /> */}
+      <Header />
       </>
 
   ;
